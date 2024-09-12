@@ -1,6 +1,6 @@
 function calculate() {
-  let a = document.getElementById("a").value;
-  let b = document.getElementById("b").value;
+  let a = Number(document.getElementById("a").value);
+  let b = Number(document.getElementById("b").value);
   let add = document.getElementById("add");
   let sub = document.getElementById("sub");
   let mul = document.getElementById("mul");
